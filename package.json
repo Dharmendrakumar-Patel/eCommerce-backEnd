@@ -1,0 +1,38 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "A eCommerce project is a web application for online shopping built using the MERN stack, which includes MongoDB, Express, React, and Node.js. The MERN stack is a popular open-source technology stack for building modern web applications that can handle a large amount of data and user traffic.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharmendrakumar-Patel/eCommerce-backEnd.git"
+  },
+  "keywords": [
+    "MERN Stack",
+    "MongoDB",
+    "Express",
+    "Node.js",
+    "Shopping",
+    "cart",
+    "RESTful",
+    "APIs"
+  ],
+  "author": "Dharmendrakumar Patel, Parin Vaghani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dharmendrakumar-Patel/eCommerce-backEnd/issues"
+  },
+  "homepage": "https://github.com/Dharmendrakumar-Patel/eCommerce-backEnd#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
